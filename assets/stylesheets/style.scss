@@ -1,0 +1,70 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#webNav {
+	display: none;
+}
+#mobileNav {
+	width: 300px;
+}
+.ui.menu {
+	height: 100vh;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.ui.basic.icon.button.hide {
+	display: none;
+}
+.ui.vertical.menu.hidden {
+	display: none;
+}
+#hideNav {
+	box-shadow: none;
+	margin-top: 5px;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+}
+#showNav {
+	box-shadow: none;
+	margin-top: 5px;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+	// z-index: 3;
+}
+#showNav:hover {
+	color: black;
+}
+#hideNav:hover {
+	color: black;
+}
+#aboutMe {
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+#aboutMe img {
+	width: 50%;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.socialBtns {
+	padding-top: 10px;
+	text-align: center;
+}
+.ui.icon.button {
+	border-radius: 50%;
+}
+
+@media only screen and (min-width: 688px) {
+	#mobileNav {
+		display: none;
+	}
+	#webNav {
+		display: block;
+	}
+	#aboutMe {
+		padding-top: 10px;
+	}
+}
