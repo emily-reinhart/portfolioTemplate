@@ -1,91 +1,37 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-}
-
-#webNav {
-  display: none;
-}
-
-#mobileNav {
-  width: 300px;
-}
-
-.ui.menu {
-  height: 100vh;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
-.ui.basic.icon.button.hide {
-  display: none;
-}
-
-.ui.vertical.menu.hidden {
-  display: none;
-}
-
-#hideNav {
-  box-shadow: none;
-  margin-top: 5px;
-  margin-bottom: 1px;
-  padding-bottom: 1px;
-}
-
-#showNav {
-  box-shadow: none;
-  margin-top: 5px;
-  margin-bottom: 1px;
-  padding-bottom: 1px;
-}
-
-#showNav:hover {
-  color: black;
-}
-
-#hideNav:hover {
-  color: black;
-}
-
-#aboutMe {
-  width: 100%;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 10px;
-}
-
-#aboutMe img {
-  width: 50%;
-  border: 2px solid white;
-  border-radius: 50%;
+#nav {
+  background-color: white;
 }
 
 .socialBtns {
-  padding-top: 10px;
   text-align: center;
 }
 
 .ui.icon.button.socials {
   border-radius: 50%;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
-#mainContent {
-  width: 100vw;
-  height: 100vh;
+.ui.button.hide {
+  display: none;
 }
 
-.ui.card.wide.column {
-  padding: 0px;
+#aboutMe {
+  text-align: center;
+  padding-top: 0px;
 }
 
-.three.column.row {
-  padding-top: 5px;
-  padding-bottom: 5px;
+#aboutMe img {
+  display: none;
 }
 
-.ui.basic.segment {
+#about img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.ui.grid > .row > .column {
+  /* padding-left: 0px;
+     padding-right: 0px; */
   padding: 0px;
 }
 
@@ -104,26 +50,34 @@ body {
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (min-width: 688px) {
-  body {
-    display: flex;
-  }
-
-  #mobileNav {
-    display: none;
-  }
-
-  #webNav {
-    display: block;
-    width: 228px;
+@media only screen and (min-width: 775px) {
+  .pusher {
+    margin-right: 258px;
   }
 
   #aboutMe {
+    display: block;
     padding-top: 10px;
   }
 
-  #showNav {
+  #aboutMe img {
+    display: inline;
+  }
+
+  #about {
     display: none;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .ui.grid > .doubling.row > .column {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ui.grid > .doubling.row > .column {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
   }
 }
 
