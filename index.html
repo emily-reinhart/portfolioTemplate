@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
 <body>
-    
+    <!-- Website Navbar -->
     <div class="ui secondary vertical pointing menu" id="webNav">
         <div id="aboutMe">
             <img src="https://semantic-ui.com/images/avatar2/large/molly.png" alt="avatar" srcset="">
@@ -18,30 +18,33 @@
             <p class="ui small header">Put Job Title Here</p>
             <a href="#">Resume</a>
         </div>
-        <a class="active item">
-          Home
-        </a>
-        <a class="item">
-          Education
-        </a>
-        <a class="item">
-          Skills
-        </a>
-        <a class="item">
-            Projects
-        </a>
-        <a class="item">
-            Contact
-        </a>
+        <a class="active item" href="#">Home</a>
+        <a class="item" href="#edu">Education</a>
+        <a class="item" href="#skills">Skills</a>
+        <a class="item" href="#projects">Projects</a>
+        <a class="item" href="#contact">Contact</a>
         <div class="socialBtns">
-            <button class="ui icon button" href="https://github.com/emily-reinhart">
+            <button class="ui icon button socials" href="https://github.com/">
                 <i class="github icon"></i>
             </button>
-            <button class="ui icon button" href="mailto:emily.reinhart@utexas.edu">
+            <button class="ui icon button socials" href="https://github.com/">
+                <i class="twitter icon"></i>
+            </button>
+            <button class="ui icon button socials" href="https://linkedin.com/">
+                <i class="linkedin icon"></i>
+            </button>
+            <button class="ui icon button socials" href="https://instagram.com/">
+                <i class="instagram icon"></i>
+            </button>
+            <button class="ui icon button socials" href="https://facebook.com/">
+                <i class="facebook f icon"></i>
+            </button>
+            <button class="ui icon button socials" href="mailto:">
                 <i class="envelope icon"></i>
             </button>
         </div>
     </div>
+    <!-- Mobile navbar -->
     <div class="ui secondary vertical pointing menu hidden" id="mobileNav">
         <button class="ui basic icon button hide" id="hideNav"><i class="close icon" style="font-size: 1.7em;"></i>
         </button>
@@ -67,18 +70,144 @@
             Contact
         </a>
         <div class="socialBtns">
-            <button class="ui icon button" href="https://github.com/emily-reinhart">
+            <button class="ui icon button socials" href="https://github.com/">
                 <i class="github icon"></i>
             </button>
-            <button class="ui icon button" href="mailto:emily.reinhart@utexas.edu">
+            <button class="ui icon button socials" href="https://github.com/">
+                <i class="twitter icon"></i>
+            </button>
+            <button class="ui icon button socials" href="https://linkedin.com/">
+                <i class="linkedin icon"></i>
+            </button>
+            <button class="ui icon button socials" href="https://instagram.com/">
+                <i class="instagram icon"></i>
+            </button>
+            <button class="ui icon button socials" href="https://facebook.com/">
+                <i class="facebook f icon"></i>
+            </button>
+            <button class="ui icon button socials" href="mailto:">
                 <i class="envelope icon"></i>
             </button>
         </div>
     </div>
-    <button class="ui basic icon button" id="showNav"><i class="circle outline icon" style="font-size: 1.7em;"></i>
+    <button class="ui basic icon button" id="showNav" style="z-index: 3;"><i class="circle outline icon" style="font-size: 1.7em;"></i></button>
 
-    <div class="ui container">
+    <div class="pusher" id="mainContent">
+        <div class="ui basic segment">
+            <div class="ui  grid cards">
+                    <div class="centered row">
+                        <div class="ui card five wide mobile five wide computer column">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                  <div class="content">
+                                    <div class="center">
+                                      <div class="ui inverted button">More Info</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <img src="https://semantic-ui.com/images/wireframe/image.png">
+                              </div>
+                        </div>
+                        <div class="ui card five wide mobile five wide computer column">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                  <div class="content">
+                                    <div class="center">
+                                      <div class="ui inverted button">More Info</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <img src="https://semantic-ui.com/images/wireframe/image.png">
+                              </div>
+                        </div>
+                        <div class="ui card five wide mobile five wide computer column">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                  <div class="content">
+                                    <div class="center">
+                                      <div class="ui inverted button">More Info</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <img src="https://semantic-ui.com/images/wireframe/image.png">
+                              </div>
+                        </div>
+                        <div class="ui card five wide mobile five wide computer column">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                  <div class="content">
+                                    <div class="center">
+                                      <div class="ui inverted button">More Info</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <img src="https://semantic-ui.com/images/wireframe/image.png">
+                              </div>
+                        </div>
+                        <div class="ui card five wide mobile five wide computer column">
+                            <div class="blurring dimmable image" >
+                                <div class="ui dimmer">
+                                  <div class="content">
+                                    <div class="center">
+                                      <div class="ui inverted button">More Info</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <img  src="https://images.unsplash.com/photo-1539292110837-1dab0fa95133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+                              </div>
+                        </div>
+                        <div class="ui card five wide mobile five wide computer column">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                  <div class="content">
+                                    <div class="center">
+                                      <div class="ui inverted button">More Info</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <img src="https://semantic-ui.com/images/wireframe/image.png">
+                              </div>
+                        </div>
+                    <!-- end row -->
+                    </div>  
+            
+        <!-- end ui grid -->
+        </div>
+            <!-- <div class="ui stackable grid">
+                <div class="six wide column" id="edu">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Bachelors</li>
+                        <li>Courses</li>
+                    </ul>
+                </div>
+                <div class="six wide column" id="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML/CSS</li>
+                        <li>Javascript</li>
+                        <li>NodeJS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ui stackable grid">
+                <div class="wide column" id="projects">
+                    <h3>Projects</h3>
+                </div>
+            </div>
+            <div class="ui stackable grid">
+                <div class="wide column" id="contact">
+                    <h3>Contact Form</h3>
+                </div>
+            </div> -->
 
+        <!-- end ui basic segment -->
+        </div>
+        
+        
+        
+        
     </div>
     <script>
         $("#showNav").click(function(){
@@ -91,6 +220,10 @@
             $("#hideNav").toggleClass("hide");
             $("#showNav").toggleClass("hide");
         })
+
+        $('.grid.cards .image').dimmer({
+            on: 'hover'
+        });
     </script>
 </body>
 </html>

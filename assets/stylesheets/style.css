@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 
 #webNav {
@@ -65,21 +66,64 @@ body {
   text-align: center;
 }
 
-.ui.icon.button {
+.ui.icon.button.socials {
   border-radius: 50%;
+  margin-top: 3px;
+}
+
+#mainContent {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ui.card.wide.column {
+  padding: 0px;
+}
+
+.three.column.row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ui.basic.segment {
+  padding: 0px;
+}
+
+.blurring.dimmable.image {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+
+.blurring.dimmable.image img {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media only screen and (min-width: 688px) {
+  body {
+    display: flex;
+  }
+
   #mobileNav {
     display: none;
   }
 
   #webNav {
     display: block;
+    width: 228px;
   }
 
   #aboutMe {
     padding-top: 10px;
+  }
+
+  #showNav {
+    display: none;
   }
 }
 
