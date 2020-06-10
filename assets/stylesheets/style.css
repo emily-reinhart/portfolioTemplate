@@ -1,5 +1,13 @@
 #nav {
-  background-color: white;
+  background-color: #a9e1df;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.ui.secondary.pointing.menu a.item:hover {
+  font-weight: bold;
 }
 
 .socialBtns {
@@ -7,6 +15,7 @@
 }
 
 .ui.icon.button.socials {
+  background-color: white;
   border-radius: 50%;
   margin-top: 5px;
 }
@@ -22,11 +31,39 @@
 
 #aboutMe img {
   display: none;
+  width: 50%;
+  border-radius: 50%;
+}
+
+#aboutMe a {
+  color: black;
+  font-size: 1rem;
+}
+
+#about {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
 }
 
 #about img {
   width: 30%;
   border-radius: 50%;
+}
+
+.ui.container {
+  margin: 0px !important;
+  position: relative;
+  z-index: -1;
+}
+
+hr {
+  border-color: lightseagreen;
+  width: 60%;
+}
+
+#allContent {
+  padding: 0px;
 }
 
 .ui.grid > .row > .column {
@@ -48,6 +85,118 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+#toggle {
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 3;
+  background-color: lightseagreen;
+  color: white;
+}
+
+#close {
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: lightseagreen;
+  color: white;
+  border-radius: 50%;
+}
+
+.pushable > .pusher {
+  transition: all 0.6s ease;
+}
+
+.exp {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.title > .ui.small.header {
+  margin: 0px;
+}
+
+.desc {
+  margin-left: 20px;
+}
+
+#experience {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+#skills {
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 24px;
+}
+
+.ui.huge.header {
+  text-align: center;
+}
+
+.exp {
+  border: 2px solid lightseagreen;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  background-color: rgba(32, 178, 171, 0.384);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.skill {
+  background-color: lightgray;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress {
+  display: flex;
+  background-color: lightseagreen;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.skill p {
+  text-align: center;
+  width: 50%;
+  margin: 0px;
+  padding: 0px 8px 0px 8px;
+}
+
+#contact {
+  background-color: #105551;
+}
+
+#contact .ui.huge.header {
+  color: white;
+  margin-top: 10px;
+}
+
+.ui.inverted.form {
+  display: flex;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+.formDiv {
+  width: 50%;
+}
+
+#submitContact.ui.basic.inverted.button {
+  margin-top: 9px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 775px) {
